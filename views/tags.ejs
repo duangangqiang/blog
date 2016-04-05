@@ -1,0 +1,9 @@
+<%- include header %>
+
+<% if (tags && tags.length > 0) { %>
+    <% tags.forEach(function(tag, index) {%>
+        <a href="/tags/<%= tag %>" class="tag"><%= tag %></a>
+    <% }) %>
+<% } %>
+
+<%- include footer  %>

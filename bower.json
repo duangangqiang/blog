@@ -1,0 +1,25 @@
+{
+  "name": "duangangqiang's blog",
+  "description": "duangangqiang's blog nodejs project",
+  "main": "app.js",
+  "authors": [
+    "duangangqiang@yahoo.com"
+  ],
+  "license": "no",
+  "keywords": [
+    "node"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2"
+  }
+}
